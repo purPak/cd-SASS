@@ -1,0 +1,30 @@
+@import "compass";
+
+/******************VARIABLES ******************/
+
+//Régler le temps de transition du menu
+$default-transition-duration: 0.3s;
+
+//Régler la couleur des bouttons 
+$color : #f72225;
+
+/******************BASE******************/ 
+
+@import "base/base";
+
+/******************LAYOUT******************/ 
+
+@import "layout/grid/grid";
+
+/******************MODULE******************/
+
+@import "module/header";
+@import "module/section";
+
+/******************BUTTON******************/
+
+@import "module/btn";
+
+/******************FORMULAIRE******************/
+
+@import "module/form"

@@ -1,0 +1,81 @@
+.section{
+    height: 720px;
+    
+}
+
+.section-small{
+    height: 560px;
+}
+
+/******************SECTION 1******************/ 
+.section-1{
+    background: url(../img/festival.jpg);
+    @include background-size(cover);
+    position:relative;
+    /* Gestion de la parrallax */
+    background-attachment: fixed;
+    opacity:0.70 ;
+}
+
+/******************SECTION 2******************/ 
+
+.section-line-1{
+    height: 360px;
+    display: flex;
+}
+
+.section-line-2{
+    height: 360px;
+    background: red;
+    display: flex;
+}
+
+.section-line-1 .section-left-content{
+    background:url(../img/karate.jpg);
+    @include background-size(cover);
+    width:50%;
+    height:100%;
+}
+
+
+.section-line-1 .section-right-content{
+    background: #232323;
+    width:50%;
+    height:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-line-2 .section-left-content{
+    background: #fff;
+    width:50%;
+    height:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-line-2 .section-right-content{
+    background: #fff;
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.h1-white{
+    color : #fff;
+}
+
+.section-3{
+    background: url(../img/revolution.png);
+    @include background-size(cover);
+    
+}

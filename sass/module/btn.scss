@@ -1,0 +1,22 @@
+.btn-article{
+    background-color:transparent;
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 200px;
+    height:40px;
+    font-size: 20px;
+}
+
+
+.btn-dark{
+    
+    color: white;
+    border: 1px solid white;
+    &:hover{background-color: #fff; color: black; };
+}
+
+.btn-light{
+    color: black;
+    border: 1px solid black;
+    &:hover{background-color: black; color: white; };
+}
